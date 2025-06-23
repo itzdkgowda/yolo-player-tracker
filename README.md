@@ -12,6 +12,7 @@ This project aims to ensure that each player retains a consistent identity acros
 🗂️ Assigns consistent player_ids between video feeds.
 
 🧠 How It Works
+
 Detection: Runs inference using YOLOv11 to get bounding boxes of players in each frame.
 
 Feature Extraction: Crops each player and extracts HSV color histograms.
